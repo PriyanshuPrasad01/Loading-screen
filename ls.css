@@ -1,0 +1,258 @@
+
+.preloader
+{
+    background-image: url(/images/cool-background.png);
+     position: fixed;
+     display: block;
+     width: 100%;
+     height: 100%;
+     float:left;
+     top: 0;
+     left: 0;
+     
+     opacity: 1;
+     
+     z-index: 99;
+    transition: opacity 7s ease;
+}
+h2{
+    font-family: 'Otomanopee One', sans-serif;
+    position: relative;
+    bottom:200px;
+    left:40px;
+    font-size: 40px;
+}
+h3{
+    font-family: 'Otomanopee One', sans-serif;
+    position: relative;
+    top:200px;
+    left:1100px; 
+    font-size: 30px;;
+}
+.preload-finish{
+    opacity: 0;
+    pointer-events: none;
+}
+.img1
+{
+    
+    height:200px;
+    width:200px;
+    position: relative;
+    top:240px;
+    background-color: white;
+    border-radius: 200px;
+    left:600px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes rotate {
+
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(90deg);
+    }
+    50%
+    {
+        transform: rotate(180deg);
+    }
+    75%
+    {
+        transform:rotate(270deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.img2
+{
+    height:150px;
+    width:150px;
+    position: relative;
+    top:65px;
+    left:420px;
+    z-index: -1;
+    animation-name: rotat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotat {
+    0%{
+       
+    }
+    25%
+    {
+
+       position: relative;
+       top:200px;
+       left:570px;
+       transform: rotate(90deg);     
+    }
+    50%
+    {
+        position: relative;
+        top:370px;
+        left:430px;
+        transform: rotate(180deg);  
+    }
+    75%
+    {
+        position:relative;
+        top:200px;
+        left:270px;
+        transform: rotate(270deg);
+    }
+    100%
+    {
+        position:relative;
+        top:65px;
+        left:420px;
+        transform: rotate(360deg);
+    }
+
+}
+.img3{
+    height:150px;
+    width:150px;
+    rotate: 90deg;
+    position:relative;
+    top:200px;
+    left:420px;
+    z-index: -1;
+    animation-name: tmrotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes tmrotate
+{
+    0%{
+
+    }
+    25%
+    {
+        position: relative;
+        top:350px;
+        left:280px;
+        transform: rotate(90deg);
+    }
+    50%
+    {
+        position: relative;
+        top:200px;
+        left:100px;
+        transform: rotate(180deg);
+
+    }
+    75%
+    {
+        position: relative;
+        top:40px;
+        left:270px;
+        transform: rotate(270deg);
+    }
+    100%
+    {
+        position: relative;
+        top:200px;
+        left:420px;
+        transform: rotate(360deg);
+    }
+}
+.img4{
+    height:150px;
+    width:200px;
+    rotate: 270deg;
+    position: relative;
+    right:80px;
+    top:220px;
+    z-index: -1;
+    animation-name: lrotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes lrotate {
+    0%{
+
+    }
+    25%{
+        position: relative;
+        top: 40px;
+        right: -80px;
+        transform: rotate(90deg);
+    }
+    50%{
+        position: relative;
+        top:220px;
+        right:-250px;
+        transform: rotate(180deg);
+    }
+    75%
+    {
+        position: relative;
+        top:380px;
+        right:-80px;
+        transform: rotate(270deg);
+    }
+    100%
+    {
+        position: relative;
+        right:80px;
+        top:220px;
+        transform: rotate(360deg);
+        
+    }
+    
+}
+.img5{
+    height:120px;
+    width:170px;
+    rotate: 180deg;
+    position: relative;
+    top:350px;
+    right: 100px;
+    z-index: -1;
+    animation-name: brotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes brotate {
+    0%{
+
+    }
+    25%
+    {
+        position: relative;
+        right:250px;
+        top:220px;
+        transform: rotate(90deg);
+    }
+    50%
+    {
+        position: relative;
+        right:100px;
+        top:50px;
+        transform: rotate(180deg);
+    }
+    75%
+    {
+        position: relative;
+        right: -50px;
+        top:200px;
+        transform: rotate(270deg);
+    }
+    100%
+    {
+        position: relative;
+        top:350px;
+        right: 100px;
+        transform: rotate(360deg);
+    }
+    
+}
